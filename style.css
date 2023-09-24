@@ -3,3 +3,54 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header{
+  text-align: center;
+  margin: auto;
+}
+#featured-property{
+   margin: auto;
+   text-align: center;
+}
+
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0304;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+  color: purple;
+}
+figcaption{
+  font-size: 15px;
+  text-align: center;
+}
+#featured-property  p{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+#featured-property > p{
+  margin-bottom: 15px;
+}
+#details > div{
+  float: left;
+  background-color: rgb(214, 178, 130);
+  width: 25%;
+  
+}
+a :link{
+  color: blue;
+}
+
+a:visited{
+  color: orangered;
+}
+@media (max-width: 1200px){
+  html{
+    min-width: 576px;
+  }
+}
